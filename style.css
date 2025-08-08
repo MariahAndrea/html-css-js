@@ -94,6 +94,7 @@ nav{
     justify-content: flex-end;
     margin: auto;  
     max-width: 660px;
+    flex-wrap: wrap;
 }
 
 .homeHeader{
@@ -106,7 +107,7 @@ nav{
     font-family: 'Poppins', sans-serif;
     color: #724190;
     font-weight: 900;
-    font-size: clamp(3.5rem, 8vw, 8rem);
+    font-size: clamp(2.5rem, 7vw, 8rem);
     text-align: right;
 }
 
@@ -123,7 +124,7 @@ nav{
     font-family: 'Poppins', sans-serif;
     color: #724190;
     font-weight: 600;
-    font-size: 25px;
+    font-size: clamp(18px, 4vw, 25px);
 }
 
 .starElement img{
